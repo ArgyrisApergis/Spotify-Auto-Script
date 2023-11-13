@@ -4,7 +4,7 @@ import webbrowser
 
 #--- For opening the url ---
   
-# url = "https://open.spotify.com/search" # Replace with the URL of the webpage you want to open
+# url = "https://open.spotify.com/search"
 # # Open the webpage in the default web browser
 # webbrowser.open(url)
 # time.sleep(8) # Give it some time to load the page
@@ -15,7 +15,7 @@ import webbrowser
 
 # time.sleep(2)
 
-# # The following lines help determine the possistion of the cursor to use it with pyautogui
+# # The following lines help determine the position of the cursor to use it with pyautogui
 # current_x, current_y = pyautogui.position()
 # print(f"Current Mouse Position: x={current_x}, y={current_y}")
 
@@ -24,7 +24,7 @@ import webbrowser
 
 # import subprocess
 # # Specify the path to the Spotify executable on your system
-# spotify_executable = "C:/Users/Archie/AppData/Roaming/Spotify/Spotify.exe" # Update this with the actual path to spotify.exe
+# spotify_executable = "C:/Users/..." # Update this with the actual path to spotify.exe
 
 # # Open Spotify
 # subprocess.Popen([spotify_executable])
